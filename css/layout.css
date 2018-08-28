@@ -24,6 +24,9 @@
 
 /* Posititoning Classes */
 
+.col-1 shadow {
+  float: right;
+}
 .col-1 {
   width: 32%;
 }
