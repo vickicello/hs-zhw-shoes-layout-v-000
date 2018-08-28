@@ -30,15 +30,17 @@
 }
 .col-1 {
   width: 32%;
+  float: left;
 }
 
  .col-2 {
    width: 66%;
+   float: left;
 }
 
  [class*="col-"] {
     margin-left: 2%;
-    float: left;
+    /*float: left;*/
 }
 
 [class*="col-"]:first-child {
@@ -56,4 +58,8 @@
     visibility: hidden;
     height: 0;
     line-height: 0;
+}
+
+.deals {
+  clear: both;
 }
